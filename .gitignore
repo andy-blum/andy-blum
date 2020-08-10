@@ -1,0 +1,7 @@
+vendor/
+web/
+
+
+!web/modules/custom
+!web/profiles/custom
+!web/themes/custom
