@@ -1,0 +1,5 @@
+name: Andy's Theme
+description: Custom theme for Andy's portfolio & blog site
+base theme: stable
+type: theme
+core_version_requirement: ^9
