@@ -1,0 +1,29 @@
+{
+  "name": "andy-blum",
+  "version": "1.0.0",
+  "description": "custom front-end tooling kit",
+  "main": "",
+  "scripts": {
+    "launch": "ddev launch && npm i && gulp"
+  },
+  "author": "Andy Blum",
+  "repository": "https://bitbucket.org/gravityworks/startercss",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.7.5",
+    "beeper": "^1.1.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-symbols": "^3.2.3"
+  }
+}

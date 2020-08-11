@@ -3,3 +3,12 @@ description: Custom theme for Andy's portfolio & blog site
 base theme: stable
 type: theme
 core_version_requirement: ^9
+
+libraries:
+  - andy/global
+
+regions:
+  header: Header
+  banner: Banner
+  main: Main Content
+  footer: Footer
