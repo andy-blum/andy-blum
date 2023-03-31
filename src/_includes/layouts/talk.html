@@ -1,0 +1,36 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+  <article>
+    <h1>{{ title }}</h1>
+
+    {% if last_presented %}
+      <p>Last presented: {{ last_presented.toDateString() }}</p>
+    {% endif %}
+
+    {% if conferences %}
+      <p>Presented at:</p>
+        <ul>
+          {% for conference in conferences %}
+            <li>{{conference}}</li>
+          {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% if url or video_url %}
+      <p>Links:</p>
+      <ul>
+      {% if url %}
+        <li><a href="{{url}}">Source</a></li>
+      {% endif %}
+
+      {% if video_url %}
+        <li><a href="{{video_url}}">Recording</a></li>
+      {% endif %}
+      </ul>
+    {% endif %}
+
+    <h2>Description</h2>
+    {{ content | safe }}
+  </article>
+
+{% endblock %}

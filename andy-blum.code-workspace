@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "Root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "terminal.integrated.cwd": ".",
+    "files.associations": {
+      "*.html": "nunjucks",
+    }
+  },
+  "extensions": {},
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  }
+}

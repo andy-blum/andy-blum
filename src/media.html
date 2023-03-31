@@ -1,0 +1,42 @@
+---
+title: Media
+pagination:
+  data: collections.media
+  alias: media_items
+  size: 10
+  reverse: true
+---
+
+
+<ul class="plain">
+  {% for media in media_items  %}
+    <li>
+      <article class="post-preview">
+        <a
+          class="post-title"
+          href="{{ media.data.url }}"
+          {{ utils.getLinkActiveState(media.url, page.url) | safe }}
+        >
+          {{ media.data.title }}
+        </a>
+        {{ media.content|safe }}
+      </article>
+    </li>
+  {% endfor %}
+</ul>
+
+{% if pagination.href.next or pagination.href.previous %}
+ <nav aria-labelledby="media-pagination" class="pagination">
+  <h2 id="media-pagination" class="visually-hidden">Media Pagination</h2>
+  <ul>
+    <li>{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first }}">First</a>{% else %}First{% endif %}</li>
+    <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a>{% else %}Previous{% endif %}</li>
+    {%- for pageEntry in pagination.pages %}
+      <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a></li>
+    {%- endfor %}
+    <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% else %}Next{% endif %}</li>
+    <li>{% if page.url != pagination.href.last %}<a href="{{ pagination.href.last }}">Last</a>{% else %}Last{% endif %}</li>
+  </ul>
+</nav>
+{% endif %}
+

@@ -1,0 +1,26 @@
+<a class="visually-hidden" href="#main-content">Skip to the main content</a>
+<header role="banner" class="site-head">
+  <nav class="" aria-label="Site Navigation">
+    <ul class="nav__list">
+      {% for item in navigation.items %}
+      <li>
+        <a href="{{ item.url }}" {{ utils.getLinkActiveState(item.url, page.url) | safe }}
+          >{{ item.text }}</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <nav>
+    <ul>
+      {% for item in social %}
+      <li>
+        <a rel="me" href="{{ item.url }}">
+          <span class="visually-hidden">{{ item.name }}</span>
+          {{ item.icon | safe}}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
