@@ -3,6 +3,7 @@ title: Add a Composer Script to Your Module or Theme
 created: 2022-03-09T00:00:00-05:00
 canonical: https://www.lullabot.com/articles/add-composer-script-your-module-or-theme
 type: article
+tags: [drupal]
 ---
 
 Following Drupal 8’s ambitious overhaul to “get off the island,” the recommended way to create a new Drupal site is to use composer to manage all PHP dependencies. By now, most Drupal developers will have had a chance to install a new module or update existing modules using composer’s `require` or `update` commands, but did you know that you can also use composer to run scripts to interact with your code?

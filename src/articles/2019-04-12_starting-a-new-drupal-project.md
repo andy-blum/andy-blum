@@ -2,6 +2,7 @@
 title: Starting a New Drupal Project
 created: 2019-04-12T00:00:00-05:00
 type: article
+tags: [drupal]
 ---
 
 My favorite characteristic of Drupal as a CMS is its one-two punch of flexibility & extensibility. You can make Drupal do just about anything you want, and for many purposes, you might not even need to touch code. While the options available are effectively infinite, there are a few things I do every single time I start a new project.

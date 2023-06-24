@@ -2,6 +2,7 @@
 title: Using the flag module to trigger additional actions
 created: 2021-06-02T00:00:00-05:00
 type: article
+tags: [drupal]
 ---
 
 On a recent pet project I wanted to use the flag module to provide a quick bookmarking solution so users could mark nodes they were interested in keeping an eye on, and had the thought, "_there must be a way to use this to trigger side effects"_. There is, but it's a bit more complicated than Drupal's well-known hooks. In searching for a way to do this I came across the article [_Perform actions on flag/unflag in Drupal 8_](https://dev.studiopresent.com/blog/back-end/perform-actions-flag-unflag-drupal-8) by Goran Nikolovski at StudioPresent, which was incredibly helpful.

@@ -1,5 +1,6 @@
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = config => {
   config.addCollection('articles', collection => {
@@ -22,6 +23,9 @@ module.exports = config => {
   config.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
   });
+  config.addFilter('planetDrupal', function(collection) {
+    return collection.filter(item => !item.data.canonical && item.data.tags?.includes('drupal'))
+  });
   config.addTransform("htmlmin", (content, outputPath) => {
     if (outputPath.endsWith(".html")) {
       return htmlmin.minify(content, {
@@ -40,6 +44,11 @@ module.exports = config => {
     }
     return content;
   })
+  config.addPlugin(pluginRss, {
+    posthtmlRenderOptions: {
+      closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
+    }
+  });
   return {
     markdownTemplateEngine: false,
     dataTemplateEngine: 'njk',
