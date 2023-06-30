@@ -7,6 +7,7 @@ video_url: https://youtu.be/czY5enzmKfk
 url: https://docs.google.com/presentation/d/1lO7mkRMeaXkQLRPFRYKvOZhv5KiDoNyQlmbvvcrDe0Y
 type: talk
 layout: "layouts/talk.html"
+permalink: "talks/creating-and-consuming-web-components-for-drupal/"
 ---
 Creating beautiful, interactive interfaces in Drupal requires carefully-crafted markup, well-designed javascript, and an expert knowledge of Drupal's behaviors system. When done well, we can deliver designs that delight, but if done poorly or in conjunction with a conflicting library, our house of cards can come tumbling down.
 

@@ -7,6 +7,7 @@ video_url: https://youtu.be/HZTmT_xw1no?t=661
 url: https://docs.google.com/presentation/d/1KQGcwWEuFounMl9Ffpccrzx4J_szw6zNZYQCwKWCAc0
 type: talk
 layout: "layouts/talk.html"
+permalink: "talks/things-you-can-do-when-you-dont-support-ie11/"
 ---
 Hallelujah! As of Drupal 10, Internet Explorer will no longer be supported! How does that change Olivero, and the rest of Drupal core? What new fancy features does this enable?
 

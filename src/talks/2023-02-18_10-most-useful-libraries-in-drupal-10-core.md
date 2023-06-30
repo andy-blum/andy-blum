@@ -7,6 +7,7 @@ video_url: https://youtu.be/XUvzRX26nHU
 url: https://docs.google.com/presentation/d/1O_xv9AmbD6br_Rk4uMZb3qgN7P4CM8q7fW7eS5sLNLU
 type: talk
 layout: "layouts/talk.html"
+permalink: "talks/ten-most-useful-libraries-in-drupal-ten/"
 ---
 Drupal 10 ships with more than 75 front-end libraries! While these are included for the use of core functionality, you can use them for your projects as well. In this session we'll go over the 10 most widely-useful libraries in core that will enhance your next build's performance, accessibility, layout, and interactivity.
 

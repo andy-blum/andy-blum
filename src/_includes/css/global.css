@@ -41,7 +41,7 @@ header::after {
 
 main {
   width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 25vh;
   max-width: calc(100% - 2em);
 }
 

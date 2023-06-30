@@ -2,6 +2,7 @@
 title: Trigger JavaScript changes at your CSS breakpoints
 created: 2021-04-14T00:00:00-05:00
 type: article
+permalink: "articles/triger-javascript-changes-at-css-breakpoints/"
 ---
 
 [Responsive web design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design) has been around for a while, and is definitely the preferred way to handle displaying your website to users across a virtually infinite number of device types, shapes, and sizes. While the use of media queries is pretty well established and wide-spread for targeting specific CSS rules, what if you wanted to use device width or some other media query to trigger _your javascript?_
