@@ -1,0 +1,1282 @@
+nine so we're gonna go ahead and get
+started
+um
+thank you all for coming it's a full
+room there's a lot of energy in here
+which is really good
+um I really appreciate the passion in
+the community about this uh this kind of
+topics in general so I want to start off
+by just acknowledging that it's a full
+room when there's a lot of energy and
+you know we're here we're gonna invite
+people to speak right and so we want
+people to be respectful and you know to
+you know be behave in a professional and
+respectful manner even though this is
+something that again rightly so people
+feel very passionately about
+um so we we structured the title event
+as a round table discussion
+um there's a bunch of round tables and
+we don't even fit around them so we have
+extra microphones up here uh which I
+think you know we'd invite people to
+come up and use when you know when they
+want to speak
+um as the conveners of the event
+um we can kind of start and explain you
+know David and I can talk a little about
+like our perspective on this this topic
+and the topic broadly is you know how do
+we
+conduct ourselves how do we react when
+people who use our software people who
+use our technology don't we don't agree
+with their agenda we don't we don't
+share their values and at what point do
+we try to draw lines and boundaries
+around that sort of thing and it's a
+it's a complicated question
+um you know there's uh one of the things
+that as a contributor to Drupal
+personally had to make kind of my peace
+with early on was the fact that once you
+release free software people will use it
+and you don't have control over how it
+will be used and that's uh you know part
+of the trade-off that you make when you
+release something freely there's lots of
+benefits to all of that but it's not all
+beneficial and when we started our
+company uh Pantheon we set it up
+intentionally so that anyone could sign
+up for it for free anyone could take
+their site live at any point they wanted
+to we work with a lot of agency partners
+that can bring us any customer they want
+at any time and we
+built it around that same ethos of being
+very widely and publicly available when
+we were you know in the early days of
+the company we intentionally structured
+one restriction around that which is
+which we we didn't want to do adult
+content and that was kind of just more
+of a question of what type of business
+you want to build because you were doing
+stuff on the internet you kind of either
+take a fork on the road if you do or you
+don't and we didn't want to build the
+adult content kind of business so so we
+didn't and then beyond that we really
+took a broad uh uh gave our users and
+customers broad license because it's
+their website it's their content it's
+their code they they own it like that is
+the perspective that we've had so we
+honor our legal obligations obviously
+around like copyright other things like
+that and we have taken action in the
+past when there are things happening on
+the platform that create a we in our
+judgment a direct risk or harm so people
+posting personal information people
+doing like targeted harassment people
+say saying hey let's go you know get
+these people at this place like where
+the removal of that content in it in and
+of itself could potentially avert
+something bad from happening directly
+like our our perspective is that's
+that's a that's a using Pantheon to
+directly harm someone the website is is
+a harmful thing and we'll take it
+doesn't happen a lot but it has happened
+we'll we'll take action to pull that off
+but beyond that we're we're our
+perspective is it's the right thing for
+a big open platform to do to permit an
+extremely wide array of uses and an
+extremely wide array of customers even
+when the conflict with our personal
+beliefs very directly
+um and so you know that's how we have
+built our business and you know that's
+how we are conducting ourselves
+um and reasonable people can disagree
+about whether that's the right choice or
+not I don't expect everyone to share our
+position on this but I also think that
+reasonable people in a community can
+just degree and not feel you know that
+they have to become enemies
+um
+David I don't know if you want to add
+any thoughts that I'm like sort of like
+to round out the pantheon perspective
+I'm trying to represent the the all of
+the founder opinions as well as I can
+this is a bit more my personal
+perspective but um uh I grew up um in a
+very conservative community and um
+experienced a lot of censorship wielded
+as a a cudgel against
+um people in my community and
+um that's I actually joined the ACLU
+when I was in high school
+um uh back in the 90s
+um
+and that was largely in response to
+seeing burgeoning censorship efforts
+across both public and private spaces
+used as a way to
+um to exclude
+um and I
+um I wouldn't say I made a vow at that
+point but um I became fairly resolved
+early on to never be a participant in
+creating that sort of censorship
+censorship infrastructure in the sense
+of the tools that could be wielded
+against people like me again in someone
+else's hands because even when I can
+control the um the levers to some degree
+in my current position it doesn't mean
+that I have control over who those
+lovers get handed to and I'm very
+reluctant to set up levers that are
+similar to the ones that have been used
+against me and my community in the past
+foreign
+thanks for that
+um so I would like to open up the the
+conversation I think at this point
+um it's because it's a big room uh you
+know people can they don't you don't
+need to use the mics but I think it
+would probably be easier for everyone to
+understand one another if we did try to
+use the amp the microphone so that folks
+in the back can can hear what's said
+um David and I are are here kind of to
+stand up and representing Pantheon but I
+think everyone else in here is
+representing they're representing
+themselves and to the extent they feel
+comfortable they can represent their
+organizations because this is a it's a
+very complex topic it plays into what do
+we want to what do we want where do we
+draw various lines how hard do we draw
+them like what um what levels of
+Association cause you to cross a line or
+not and we just want to hear other
+people's perspectives and have a
+conversation about it as a community so
+would anybody want to come up and say
+anything or we're also happy to answer
+questions if people have it but it's we
+want to host a conversation
+
+thank you
+let me just yes
+[Music]
+I feel like I'm about to drop a
+bombshell since it's new and it's like
+new moral space for everyone but what
+are your thoughts on generative AI
+things like taking away jobs or who owns
+the rights to art
+that's a interesting question
+um
+[Music]
+I think
+that
+there are
+definitely moral quandaries with
+people building technology off of other
+people's work and then you know using it
+to replace the need to do that work it's
+also it's a challenge with openness
+right so like you release things out
+into the public you don't restrict how
+they're going to be used because again
+Freedom you know Etc and then people
+will you know Hoover up all that
+information and turn it into something
+that maybe puts you out of a job like
+that's a I don't I don't know that it's
+it's actually that Stark and dire uh now
+but it's certainly an issue it's it's a
+really hard one to figure out how to how
+to resolve you kind of have to think
+about you know
+um I've seen people talk about maybe we
+shouldn't be using like the GPL or the
+MIT license maybe we do need new
+licenses that restrict uh use for uh AI
+or or people want to put out licenses
+that require uh certain
+um uh standards for for people to use a
+technology that's Uncharted Territory
+and I think it'd be interesting to see
+some folks try to do and see how well
+how well it works but I think in in the
+world of of the sort of the AI hype
+cycle we're going to probably go through
+a few more ups and downs before we
+figure out anything that is is
+sustainable
+yeah
+you can use a Podium mic or
+[Music]
+so I know you all have arrived here with
+the best of intentions
+um trying to do the right thing
+um but you have arrived here now
+where a hate group is able to platform
+on Pantheon and not be deemed in
+violation of your terms of service
+um I got a call from your CEO when I
+raised objections that uh
+that this is not going to change they're
+going to stand firm with this policy
+um
+is there any room for discussion change
+reevaluation
+thanks Paul
+um so uh let's
+talk about that
+um
+the the there's two things I would
+respond there I want to respond directly
+to the question that you asked and I
+want to respond to the idea of
+platforming
+um because I uh again you don't have to
+agree but there's it's a there's Nuance
+in the concept of platforming that is
+important then it informs our thinking
+about this so I'm going to answer that
+first and then I'll get to your question
+your direct question
+so we the word platform is super
+overloaded right people use it to mean a
+whole lot of different things
+um I would can we get some people to
+come forward a little bit because if
+there are people in the hall there's
+like a couple seats up here
+
+yeah
+there's somebody take those chairs
+and you know if people are comfortable
+there's chairs up here if you want to
+sit sit up in the front
+you're welcome to them
+
+a more practical David you're right they
+don't want to have to sit at the table
+
+come on down
+[Music]
+
+let's hold one okay fair enough
+
+um so the I want to be clear that the
+the conversation we want to host is is a
+is a is a larger one than this specific
+issue that the Paul's referencing but
+I'm happy to give you a summary of
+uh the the Catalyst for this
+conversation if you will
+um can everybody hear me is that okay
+I can try to I'll I can get more mic'd
+up
+um actually it'll be easier for me if
+I'm not
+couch
+so
+uh for for people who are
+um you know just joining the
+conversation uh uh now the specific
+impetus for hosting this discussion is
+that uh uh Pantheon has our policy of
+being open and letting people use our
+platform without any kind of screening
+or
+um you know prior uh filtering whether
+that's directly coming onto the platform
+themselves or being brought To Us by an
+agency and one of the customers that
+came to Pantheon actually about four
+years ago brought by a small digital
+agency that works with non-profits most
+of their customers are these Anodyne
+like local let's make the food in our
+Public Schools better type of uh groups
+but they also have as one of their
+customers who knows why a national uh
+right-wing legal advocacy organization
+called Americans defending freedom is
+that right I think Alliance for
+defending freedom and this is a a an
+organization that was founded in the
+1980s it comes out of the the no it was
+in the 80s it was I think it was 90s
+my wikipedias might be slipping in the
+80s or 90s comes from the um
+Conservative Christian uh you know
+activist politics so the folks on the
+family James Dobson they were involved
+in the in the founding of it it's got
+some billionaires who keep it you know
+pumped full of money employs lots of
+lawyers from Ivy League colleges to go
+out and argue find cases that they can
+argue you know and try to run up to the
+Supreme Court to build precedent and
+also they've gotten into creating
+legislation to try to push through State
+legislatures and you know their their
+hit list goes back quite a ways like
+they were kind of like whatever's uh the
+topic du jour in in right-wing politics
+tends to be what they focus on so
+recently it's been Reproductive Rights
+um the the right to gender affirming uh
+health care and you know in the past and
+you know trying to roll back gay
+marriage
+um in the past they've also worked a lot
+on like religious freedom issues which
+you know bleeds into only one religion
+is really the one that you're allowed to
+have so this group was uh their uh
+
+adflegal.org I think is the domain name
+was was brought to Pantheon about four
+years ago
+um you know as a self-service customer
+they do have an annual contract with
+Pantheon now because they wanted to save
+some money by doing an annual commitment
+um and
+this became known uh Greg Dunlap posted
+
+about this on LinkedIn and you know
+people were really surprised I think
+shocked felt like what the heck uh how
+could you do that be doing this Pantheon
+this this seems very contrary to the the
+values that you you represent and so I I
+do want to get back to your question
+Paul
+um but I think this is probably good to
+summarize and so you know we
+part of the conversation here is what do
+we do when the users of our technology
+the users of our services the users of
+our platform don't do have this like
+strong conflict with the values that we
+authentically hold and how do you how do
+you respond to that and then different
+people have different ways that they'll
+respond to that that challenge and so
+again we're here to talk about we can
+talk more about our point of view but I
+want to hear also if people want to
+share other points of view as well so
+Paul asked a question about you know uh
+it feels really out of character and
+wrong for us to to platform this group
+and would we ever reconsider this
+decision so I wanted to respond first to
+the the use of the term platform uh
+which is I think nuanced right uh
+platform's a super overloaded word right
+there's platform the company there's
+platform the technology thing there's
+platform the way that you mean it in the
+context of speech and
+a speech platform is a place where you
+can create reach and or legitimacy right
+a speech platform is being this is a
+speech platform like I'm an official
+person standing behind a podium in a
+room where I was able to draw an
+audience like putting putting someone on
+your conference schedule is platforming
+them uh social media sites are speech
+platforms because they allow you to pay
+money to buy an audience and the whole
+purpose of the system is to drive
+attention to things
+um the open web in and of itself is not
+much of a speech platform because it
+does not provide any legitimacy anybody
+can buy a domain name it does not
+provide reach no one's going to visit
+your website
+if you build it they don't necessarily
+come you have to do all these other
+things to actually create reach so our
+perspective because I I do think I think
+Proprietors of speech platforms do have
+responsibilities for how they're used
+but my perspective is that Pantheon as
+an underlying piece of infrastructure is
+not much of a speech platform at all
+right that the actual people build
+things that you could consider speech
+platforms on top of us but our service
+is is more of a raw material
+um so just just wanted to say that and I
+I just wanted to add that
+um we we also looked into what are the
+actual implications of this more than
+just being a distinction one of the
+differences is that most extremist
+activity on the Internet is correlated
+with the reach side of this issue in the
+sense that
+um the internet before the Advent of
+major social media platforms and other
+things that would promulgate speech and
+and algorithmically bubble it up whether
+we're talking about search engines us
+social media organizations really even
+some of the most modern news media that
+is what the correlation and even causal
+effects seem to be related to for the uh
+for the expansion of extremism on the
+internet and that's the primary thing
+that we have to be concerned about in a
+sense because that's that's ultimately
+what we're talking about right like
+um it's it's not about some
+philosophical Distinction on minutia but
+like what the actual implications of the
+choices are
+yeah and against right right the the the
+the they're related the the philosophy
+there's the philosophical distinctions
+are based on the fact that different
+things work differently and have
+different effects and so Paul's question
+is will we re-revisit uh this uh this
+this uh decision
+what the way we operate when these
+questions come up we don't I mean it's
+not like a a hugely mature process we do
+have a process so you know someone will
+make a complaint
+um and uh it goes into our abuse inbox
+like like most platforms we run an abuse
+at you know provider dot IO in this case
+and uh and of most of the things that go
+into that we can handle pro forma
+because it's like oh it's a copyright
+violation claim oh it's this person
+sending spam oh this site appears to
+have been compromised and it's sending
+malware like those are things that the
+team can just verify and take action on
+immediately when someone says oh this is
+a hate group you should take them off
+your platform that's not something that
+the the team that handles the routine
+abuse complaints is is prepared to
+respond to so they escalate that we got
+together Founders
+um and our general counsel uh and
+eventually engaged the whole executive
+team and talking this through and we
+reviewed the complaint which included a
+helpful link to the splc's website where
+they kind of went over all this stuff we
+researched the organization a little bit
+we dug into some of the history of the
+how they got classified how they did and
+you know looked over their website
+obviously to see if there was anything
+like that had that like oh my gosh this
+page on the website is is doing specific
+damage
+um and what we found was there wasn't
+content on the website that we could
+reasonably say hey if we pulled this
+what this content off the internet it
+would it would prevent harm from
+happening and the the group itself well
+odious in my opinion is doing
+lawful Democrat they're they're used
+doing lawful political activism and
+trying to use the Democratic process to
+advance their agenda and the fact that I
+deeply disagree with their agenda
+doesn't mean that we are going to kick
+them off our platform
+um and so the
+policy that we exercise to go through
+all that internally just for the sake of
+being able to give some sense of like
+conclusion and finality and closure like
+the the policy document says these
+decisions are final and so I I don't
+know that we'll there's a world where
+we'll revisit this specific decision
+because it can kind of just go on and on
+and on forever
+um
+the the broader position right of how we
+think about our responsibility as a as a
+open web provider like as an open
+platform in a divided world it's not the
+easy route to take uh and so I will say
+that we're conversations about what we
+should be doing and how we should be
+doing are definitely ongoing and we we
+talked about this stuff not every day
+not every week but like you know once a
+month on average I would say
+um and I think we want to
+um
+so I I what I would I don't want to like
+promise something that we're not going
+to deliver on right I I don't think that
+we're gonna reverse course on this
+specific decision because we're not
+ready to change our overall stance that
+we've had for the last 12 years and you
+know that that's something that we would
+need to you know there would be a lot
+more thought and uh and we'd have to be
+really confident that we were moving to
+something that uh helped us you know
+feel good about the decisions we were
+making and was very consistent and was
+very transparent and was as objective as
+possible and that the challenge that's
+moving into inserting kind of a
+values-based screen for who we serve is
+it then it all comes down to like well
+who's making those judgments and how are
+they being made and you know the further
+you walk away from you know really clear
+uh uh lines but that permit an awful lot
+of things to happen the more murky that
+process gets and we've seen people
+you know get lost in the sauce
+with that and that's something that I
+don't think helps when you end up
+so I'll just speak for myself personally
+this is not the pantheon position but as
+someone who has a background in
+professional Progressive politics and
+really doesn't want this agenda to win
+getting kind of swirling around these
+questions of like who's allowed to use
+what technology when expends an enormous
+amount of energy that doesn't help
+defeat these people and so I personally
+want to
+for myself try to I don't I don't
+actually think of like my company as the
+mechanism I use to advance my political
+agenda it's like a very limited vessel
+for doing that I'd prefer to actually do
+things I think are be more likely to
+have that kind of impact in the world
+and and make the change that we would
+like to see so so it's a long way around
+of saying no on this specific thing but
+more broadly like we'd like there to be
+a better approach to this we'd like
+there to be a you know a better internet
+but we don't actually know what that is
+right now so we can't we can't change to
+something that has that kind of
+uncertainty around it
+yeah you want to come up
+
+thank you
+thank you
+so to me
+I get that there's multiple aspects to
+platforming but you are fundamentally a
+web supporting platform that they are
+hosting on
+and to me you have the terms of
+agreement 1.4 restrictions except as
+this expressly authorized person to
+disagreement subscriber and each end
+user may not and may not permit others
+to blah blah blah and we go down to item
+m
+use the service to post any false income
+uh no that's L sorry users to post any
+false inaccurate or incomplete material
+and then also
+item n
+use the service in any fortunate abusive
+or otherwise illegal weight and
+violation of this agreement
+on the current ADF website
+they state
+in this Society uh
+second find the exact line
+
+they state that a marriage is defined as
+the emotional Union of one or man and
+one woman which is obviously
+both a a lie and B abusive
+and I feel that you have strong reason
+to terminate them based on those terms
+of service thank you
+
+thank you
+so first of all thank you uh for for
+speaking
+um and
+um
+I appreciate that perspective and I
+understand where you're coming from
+um you know our we
+respectfully disagree sorry I was to say
+we certainly have the right
+um we again I want to be clear I'm not
+trying to do a cop-out thing we're like
+oh we can't we have no other options we
+have to do this because the open web
+like the the terms of service do give us
+broad latitude uh to act in in these in
+other circumstances and and there's a
+different world we could say hey guess
+what
+um Josh and and David are going to like
+review every customer on Pantheon and
+kick off any that we think are are not
+great but we choose not to operate that
+way
+um and you can just you're you're I
+understand that that's a disappointing
+choice for many of you
+um but it is a choice that we're making
+on our side and so that's why we wanted
+to you know be direct and transparent
+about that so that we can be accountable
+for that choice
+uh I was just going to dig a little more
+into the question of platform
+um in the sense that there's
+um
+um I I just want to see a show of hands
+in this room for how many people in this
+room believe in net neutrality
+okay so an overwhelming majority of
+people here believe in some restriction
+on some level of Provider on the
+internet being unable to wield
+um restrictive policies around content
+the data that's transferred
+um the information that they are
+handling and distributing there's a
+spectrum from the concept of network and
+infrastructure organizations all the way
+up to the organizations that we were
+talking about in terms of providing
+reach
+um and we believe that in reach is where
+the much of the damage occurs like we're
+not linking anyone to this site uh we're
+not uh we're not partnering on with them
+on any promotions we're not Google
+sending them search search results or
+search traffic we're not advertising
+um for them we're not algorithmically
+promoting their content
+um so we fall somewhere on this spectrum
+but between a network provider and some
+an organization that is actively
+promoting the content Distributing the
+content and there's a I think there's a
+meaningful distinction there especially
+with regard to what harm gets created
+um we we certainly don't police the
+platform to the degree that like every
+false statement on the platform is
+getting reviewed
+um the it would be intractable uh and in
+fact it would be worse than intractable
+it would get abused as a process because
+what's happening today on Reddit and
+Facebook with their own moderation
+processes is that they are getting
+weaponized against marginalized
+communities by filing reports against
+content it's often trans people who are
+the victims of this on Facebook where
+their content gets reported it goes to
+moderation cues as you scale up a
+moderation process and have more
+expansive and complex sets of criteria
+for how to evaluate it mistakes get made
+and over time as you iterate the process
+especially with people who are acting in
+bad faith you ultimately find
+marginalized people in organizations at
+the receiving end of bands and
+suspensions and other disruptions to
+their service and since we certainly
+can't have the founders review every
+single request at scale for sites on the
+platform we would necessarily have to
+hand the content moderation process to a
+system and infrastructure that would be
+much more vulnerable to that sort of
+mechanism
+thank you
+
+so I worked for a non-profit
+organization called Facing History in
+ourselves
+we use lessons of History to challenge
+teachers and their students to stand up
+to bigotry and Hate
+I don't see that we can spend our donors
+money hosting with Pantheon
+sorry I'm nervous a lot of people here
+yeah should have got a bigger room
+if you want to counteract what you're
+doing give my organization and other
+organizations like mine that are
+standing up
+free Saints
+
+[Applause]
+
+thank you for speaking and that's a
+great suggestion that's a something for
+us to think about for sure
+like in the in the world of doing things
+that will have more impact like I think
+that's a great and uh obvious thing that
+Pantheon could could be doing
+
+foreign
+
+I mean first of all like Josh said like
+we do not agree like morally with these
+guys
+there's a lot of Bad Bad actors
+um
+and you know they're in a tough
+situation but I wanted to reiterate a
+point you made earlier because I was
+thinking exactly the same thing
+um and it's about energy right and if
+you want to like Drive change
+and improve like our lives
+it takes policy takes laws
+you know there's like
+we that's not currently happening in a
+lot of places and so we're driving our
+energy kind of towards like one you guys
+but we're not talking about like how can
+we actually improve
+the world you know like like I'm from
+Florida I've got like there's there's
+bad like it's not great out there and
+I I just there's not
+you know there is activism in the world
+but
+um I also just wanted to point out like
+we're all making Drupal
+and drupal's used by a lot worse people
+than these guys
+like I've stumbled across
+apparently like terrorist groups using
+Drupal many years ago
+um
+so it's very tricky because we're all
+contributing to that you know we're all
+concerning patches to this this
+organization's website
+uh
+so yeah I mean that's the thing like I
+don't think
+telling forcing a company or I mean
+first of all let's go to Acme if we can
+get the list of all the things sites
+they don't shouldn't have up and we just
+don't know what's going on you know so
+it's not just this one group there's
+probably another one on your site that
+we don't know about
+but attacking like going after them
+isn't really gonna change it much at all
+and I think it's kind of like boycotts
+you know like we're going outside and
+shooting our Budweiser cans
+like after we buy them
+um but I like like he says like he this
+guy comes from politics like Drupal came
+from politics like Progressive politics
+2004 took over
+and uh I just think we really should put
+our energy towards like actual policy
+actual laws and not only that hate
+speech has stronger laws in other
+countries
+right so if they're really putting
+something on their website that's
+encouraging violence in danger we should
+absolutely have a mechanism to take that
+down
+right and I thought of the dcma
+do you whatever uh if you put an MP3 on
+your site
+that like some musician owns you can
+file a complaint and they'll take it
+down they have to take it down
+right so I just I feel like
+targeting stuff like that would just was
+going to help more people than just like
+kicking these guys off because guess
+what they'll just put the site back up
+again somewhere else
+and they'll have exactly the same breach
+that they already had
+so I mean I'm not I feel bad but I also
+of course they suck this is very
+emotional issue and like I'm shaking
+even talking because like yeah people
+are really being hurt out there and it's
+not because that site is on them that's
+like we'll live on no matter what until
+we change the laws
+right and can point out the problematic
+content take it down
+and I don't know that's just what I what
+I was thinking about it dcma dcma for
+hate speech
+let's do that thanks
+um
+yeah and again for everyone who's who
+wants to speak like take a beat take a
+breath it's it's a very full room and
+it's a very charged topic so um I
+appreciate that and um
+I I also I mean obviously that that's
+more in line with our thinking but I
+also really recognize why people want us
+to to do something here even as a
+gesture of solidarity with people that
+are you know in in extreme distress
+right that I I I I recognize the
+validity of that ask and as an
+individual I want to demonstrate my
+solidarity I just there's limits to what
+we can do as a company in that regard
+and I also understand that the the the
+the desire the frustration with the
+political process and the Democratic
+process is part of what drives people to
+really want to do this stuff so I saw
+that hand first but then you
+[Music]
+we got about like 15 minutes left
+
+they can't go too far okay right here so
+I appreciate that you are placing
+yourself more in the infrastructure than
+the content delivered like
+direct service actively working with
+such odious customers however there is a
+
+difference between throwing up your
+hands and saying we can't do anything
+because it's going to be a quagmire and
+act taking an active supportive stance
+of their broader community and one way
+that could be done is to just say okay
+we won't take you off your pla our
+platform however any funds that come to
+us from your payments are going to go
+right back into the causes that you are
+actively working against that we do
+support and are adhering to our policies
+so that could be an alternative active
+that you could take
+and I've been really disappointed not
+hearing anything along those lines and
+just uh we can't do anything there are
+other options and I encourage you to
+shift into supporting
+those working against these folks thanks
+yeah
+yeah that's a really good point so so
+two things I would say
+um I'm gonna respond directly to the the
+suggestion because it's a good one but
+also about like you haven't heard much
+it's I meant to say this at the very
+beginning in my intro of like Hey we're
+all here in this room it's a full room
+there's a lot of energy
+um
+I also understand that like people
+haven't heard much from Pantheon about
+this you know we've had one-on-one
+conversations with a lot of folks but we
+haven't like communicated broadly and
+publicly about it and the the reason for
+that is that uh in the The Contours of
+Internet discourse this is just like a
+really hard conversation to have
+productively if we're doing it in social
+media threads and so forth and so that's
+why I really appreciate people coming
+you know into the room where I think we
+can be more human together and you know
+have a a charged and difficult but
+hopefully meaningful conversation
+um as humans so again that's just you
+know recognizing that this is this is uh
+tricky for folks and so that's why we
+haven't like oh Pantheon's going to do
+this or oh let's clarify our stance on
+that because it you know it's sort of
+like trying to do that communication in
+the depersonalized realm of the internet
+is It's just tough uh we have to do more
+there and we will in the in the future
+um because I think we do need to spend
+like one of the things and I I will get
+back to your suggestion I promise one of
+the things that in retrospect I think we
+did that was totally a mistake was we
+didn't talk about this type of challenge
+in the past like there were many
+opportunities because these kinds of
+issues flare up with across different
+providers with some regularity there are
+many opportunities for us to have a
+conversation proactively about our
+perspective and the fact that we do have
+like customers that we disagree with
+deeply on our platform and and so there
+wouldn't be the sense of shock
+um and and confusion and and so forth
+that you know would would not make
+things
+um uh uh
+it would not it would I think it would
+have helped if if we had been clearer
+about our perspective on this earlier so
+people at least understood where we were
+coming from so to your question of like
+how can we like do turn around and do
+some material good and one of you know
+one of the ways to do that would be to
+you know redirect the funds from this
+organization to good causes like it's
+similar to like let's give free hosting
+to
+um to good causes
+um yeah I think that's that's something
+we're talking about a lot internally we
+like there's some issues which is like
+again
+for anybody who who we didn't say this
+before this is not a financial decision
+right this was not a decision we made
+because like oh gosh we need this
+customer like again they came to us on a
+credit card and they got it then now
+that I have an annual commit discount
+right they're not a high dollar uh value
+customer
+um so we're we're like frankly if we
+were going to try to like really invest
+in doing some good in the world we would
+want to uh direct more than just their
+fees towards that
+um and uh and I think the question for
+us uh as we've talked about that
+internally feels like a good idea
+don't want it to feel like like a like
+buying a carbon credit sort of thing
+which because that feels a little icky
+but but the idea of hey look we gotta we
+should put our our money where our mouth
+is how do we pick organizations to
+support how do we do more than just give
+money we'd like to like give to start to
+organize you know volunteering and other
+things that really help Engage The our
+company and like the company values and
+all of the people on team Pantheon who
+who also share these values to really
+you know put put effort in and like
+actually do some good work uh so I I
+really appreciate the suggestion it's
+good to hear that there's some support
+for that in the room and you know I I'm
+not I'm we're not going to say we have a
+plan here today because in all honesty
+we don't but I think something like that
+is a really good idea and we we
+definitely will try to figure out a way
+to to do some material positive good
+um I know you know you raise your hand
+but this gentleman over here was also
+first
+[Music]
+
+good morning everybody
+um
+I I've heard what you've said about
+the the liberty and the way you could
+use the platform and that resonates
+but how do you guys equate that to the
+decision to the platform of remove every
+website from Russia
+when when that came along right because
+it seems like it's conflicting uh to
+your stance now and in my personal
+opinion it seems like it you know I
+would venture to Guess that most people
+would support that decision so it's an
+easy decision right the Russian decision
+is an easy decision right it's it's a
+stance that was taken by most
+corporations it was a stance that was
+taken by a lot of people so so it was an
+easy decision this isn't an easy
+decision so
+um it just doesn't seem to me personally
+that what you're saying applies to that
+and so if like we did it once why can't
+we kind of do it again type of feeling
+but um I don't know it's just my thought
+process yeah
+
+so there there are definitely a few
+distinctions to be made from uh between
+uh the gazprom uh sites and
+um the uh the ADF in the sense that um
+the it's actually quite a long list
+um uh so uh if you'll bear with me
+um one is like gasprom actually runs a
+private military that's actively
+involved in The Invasion uh that so we
+are talking about a literal force that
+is directly endangering lives
+um in in Ukraine right now
+um uh they're they're actually dropping
+bombs they are sending in um tanks they
+are sending in troops and they are
+firing weapons at people uh that is a
+very high
+um direct link to the risk of
+involvement with gas prom
+um I'll additionally say like we haven't
+talked that publicly about some of these
+things but um uh we've seen Russia act
+as a state actor as uh targeting the
+platform with the tax and that also
+weighed on the scale in the sense that
+as part of their own
+um they've been in the process of
+deploying basically the equivalent of a
+great firewall and we've had contact
+with service providers in Russia and
+have noticed that they have been trying
+to intercept our TLS connections to the
+platform and therefore and insert a um
+sort of man in the middle attack and be
+able to censor the actual traffic
+because we also host activist
+organizations that are trying to
+undermine the regime in Russia and those
+have also been victims of or or
+attempted victims of denial of service
+attacks against their their sites on the
+platform so we are talking about a state
+actor directly involved in attacks and
+Military
+and it seems like a very clear case in
+in that situation
+so um uh I want to be conscious of time
+so we have about five minutes left and
+there's a lot of people who have their
+hands unfortunately I have to uh leave
+at to get to another thing for 10 by 10
+o'clock so we'll try to get and then you
+add your hand and then one more and come
+on up one two three just everybody come
+up now and you'll have a chance to speak
+
+hi hi my name is holding poon and I am
+
+Deputy chair for Drupal NYC I'm one of
+the founding members of Drupal NYC and I
+am announcing right now that we just
+signed a new contract and moving our
+websites for Drupal Camp mic and Drupal
+NYC away from Pantheon
+sorry please don't shoot the messenger
+um we would like to thank Pantheon for
+sponsoring Us in the past but until
+the issue where the open web ADF has
+
+been resolved we are no longer taking
+donations from Pantheon we're no longer
+taking sponsorships from Pantheon
+that's what I'm about to say
+all right
+hello I'm Matthew I just wanted to say
+thank you for hosting this and I
+appreciate the um
+the sincerity I also just wonder if you
+had you mentioned splc the Southern
+povert Poverty Law Center before I
+wondered if you have discussed host uh
+explicitly saying you will not host
+sites that are listed on
+organizations that track uh hate groups
+uh we we talked about that internally
+and I'll just try to be brief because
+there's other people want to talk
+um we ended up saying we probably don't
+want to do that one because it feels
+like Outsourcing our judgment to third
+party which has a bunch of risks and two
+the splc itself is uh an activist
+organization and you know that they're
+they have made controversial decisions
+in the past on how they classify people
+and it feels like if we're going to own
+these decisions we need to own them but
+good suggestion thank you
+hello I'm Michelle I come from Europe
+I was listening the different discussion
+here and something like I didn't get the
+topic because in Europe uh often
+we turn to the government in order to
+find solution to laws and legal business
+and here I have the impression that we
+stay at the company level trying to to
+
+delegate all those legal basis to the
+Enterprise and I was wondering if at one
+point the company should not turn to the
+government thing
+uh our customers have problem with some
+values
+that are
+defined by our other customers
+we should have a discussion at the state
+level in order to solve the issue and
+have the appropriate legal business for
+those kind of activities is function has
+this kind of
+discussion to to try to end
+those kind of conflicts conflicting
+discussion that happened in the pantheon
+universe
+so
+um I think the so I think I don't think
+there's a company position on that to be
+honest like but like it's just speaking
+for myself like I think one the most
+important thing is actually just
+defeating this organization the public
+sphere through the Democratic process I
+think a secondary goal potentially
+behind it which is a little bit more
+um uh con tricky but probably important
+would be to actually have better laws
+that would you know govern what you can
+and can't do so like you know back
+basically being able to use the rule of
+law as as the tool versus you know
+debates about what speech is or isn't
+permitted that are not grounded in the
+rules law that would that would be nice
+but that's not also what Pantheon's job
+is to to to to make happen in the world
+like we our mission is to put the magic
+of the internet in everyone's hands
+um we're not a lobbying organization so
+to make sure you have can come up
+thank you I am
+I first want to acknowledge the very
+real risk that is involved when you're
+putting yourself out there in the
+context of activism
+um and thank everybody who is raising
+their voice today because it is so
+important to know that there are so many
+people here who are supporting the
+community and our values
+and I want to know
+um
+I want to know if you've considered your
+own strategy for handling PR if or
+perhaps when the community continues to
+call you out on social media and
+continues to lean on you to make better
+decisions
+um that's a great question
+um the the short answer is yes right
+this is a conversation that is ongoing
+internally like how do we manage
+relationships with our community with
+our partners with our customers
+um and
+um so certainly We are continuing to to
+think about that and uh and again like
+some of the suggestions here for things
+that the community would like to see
+that would be you know received
+positively or are good and you know I
+think that's all I don't want that to be
+like a PR strategy but certainly like
+Communications and Optics is a
+consideration for that but I don't want
+to you know want to do the right thing
+for the right reasons I guess if when it
+comes down to that but thank you for the
+question we are at time so thank you all
+for coming I really appreciate everyone
+with the courage to speak and everyone
+being polite and cordial in the room
+um hopefully we have a wonderful day
+today at drupalcon and um yeah let's go
+out there
+okay if this game now if this game down
+and uh Silicon Valley company kicked
+these guys off their platform their
+website would be up it would never go
+down and then they would use it because
+they're preparing themselves as victims
+and they look as under attack so they
+would be it would be on Fox News saying
+I woke Bob kick their group off the
+internet and they have a lot of people
+that go on Fox News to talk about stuff
+all the time
+that's it the ADF in the Colorado cake
+baker decision just they handed it to
+you on a platter you have the right
+according to the ADF themselves to not
+do business with people you disagree
+with they can yell all they want about
+that this is what they pushed for
+themselves you can use it if you choose
+to make that decision
+thank you I I you're correct
