@@ -9,6 +9,7 @@ conferences:
 url: https://lb.cm/fe-training
 type: talk
 layout: "layouts/talk.html"
+permalink: "talks/advanced-drupal-front-end-development/"
 ---
 Drupal’s theme system allows theme developers to have nearly complete control over the appearance of the site, including the markup, content, styles, and interactivity. In this training we’ll explore some of the powers Drupal front-end developers wield and work with real-life examples of how they’re used. Learn advanced techniques to impact the client side presentation of your Drupal sites
 
