@@ -7,7 +7,7 @@ tags: [drupal]
 summary: "On April 20, 2023, a LinkedIn post started a very much needed discussion in the Drupal and wider open source communities. The post was a simple question, asking for someone from Pantheon if they cared to explain why they were hosting the website of an SPLC-designated hate group. Two of the company's founders, Josh Koenig and David Strauss, hosted a round table discussion at DrupalCon Pittsburgh, taking questions from community members and attempting to have a dialogue. I ultimately found this meeting to be unproductive and their explanations unsatisfactory."
 ---
 
-_The blog post that follows contains my opinions, which do not necessarily reflect the opinions of organizations with which I may be associated. Special thanks to the Drupal community members that have shared their time & insight to help me craft this response: [@alison](https://www.drupal.org/u/alison), [@hanpersand](https://www.drupal.org/u/hanpersand), [@sethlbrown](https://www.drupal.org/u/sethlbrown), and [@volkswagenchick](https://www.drupal.org/u/volkswagenchick)_
+_The blog post that follows contains my opinions, which do not necessarily reflect the opinions of organizations with which I may be associated. Special thanks to the Drupal community members that have shared their time & insight to help me craft this response: [@alison](https://www.drupal.org/u/alison), [@hanpersand](https://www.drupal.org/u/hanpersand), [@volkswagenchick](https://www.drupal.org/u/volkswagenchick), and anonymous others_
 
 ## Background & Context
 
