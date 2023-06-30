@@ -50,7 +50,7 @@ a:is(:hover, :focus) {
 }
 
 strong {
-  font-weight: bolder;
+  font-variation-settings: 'wght' 800;
 }
 
 small {
@@ -131,4 +131,15 @@ code {
   font-variation-settings: "MONO" 1, "wght" 300;
   background-color: var(--light);
   padding: 0 0.25em;
+}
+
+em {
+  font-variation-settings: 'slnt' -15,'CRSV' 0;
+}
+
+blockquote {
+  padding: 1rem;
+  border-left: 2px solid var(--accent);
+  font-variation-settings: 'wght' 200,'slnt' -15,'CRSV' 0;
+  background-color: var(--light);
 }
