@@ -4,6 +4,7 @@ created: 2021-03-05T00:00:00-05:00
 type: article
 tags:
   - drupal
+permalink: "articles/working-with-datetime-objects-in-drupal/"
 ---
 ## Background & Context
 
