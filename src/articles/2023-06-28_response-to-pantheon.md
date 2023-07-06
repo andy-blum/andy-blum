@@ -1,6 +1,6 @@
 ---
 title: Response to Pantheon's DrupalCon Round Table
-created: 2023-06-28T00:00:00-05:00
+created: 2023-07-05T00:00:00-05:00
 type: article
 permalink: "articles/response-to-pantheon/"
 tags: [drupal]
@@ -59,7 +59,7 @@ Do you see the hypocrisy here?
 
 Both organizations are oppressing other groups, causing them harm. But neither group wields the Pantheon infrastructure as a weapon. The Russian-backed sites were taken down citing harm to others, and the ADF site remains. I'm inclined to believe that, in fact, Pantheon _was simply taking the easy decision_. Perhaps Pantheon's leadership should re-read [their very own press release](https://pantheon.io/blog/pantheon-rises-support-open-web) from that time. CEO Zack Rosen states, "We have a responsibility to think about the overall health of the open web itself, and the role it ultimately will play". What about your responsibility to think about the health of the _people_ that use the open web and the role _you_ will ultimately play?
 
-## Rebuttal #4 Net neutrality and an "open web" are not the same thing.
+## Rebuttal #4: Net neutrality and an "open web" are not the same thing.
 
 David said ([26:18](https://youtu.be/TeyMRzj9dlI?t=1578)):
 
