@@ -24,9 +24,13 @@ a, button {
 	cursor: revert;
 }
 
-:is(ol, ul):not(.plain) {
+:is(ol, ul):not(.plain) li {
 	list-style: initial;
 	list-style-position: inside;
+}
+
+ol:not(.plain) li {
+	list-style-type: numbers;
 }
 
 /* Remove list styles (bullets/numbers) */
@@ -102,4 +106,36 @@ meter {
 /* Revert Modal native behavior */
 :where(dialog:modal) {
 	all: revert;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%
+}
+
+tr:nth-child(even) {
+	background-color: rgba(127,127,127,0.15);
+}
+
+td, th {
+	border: 1px solid rgba(127,127,127,0.7);
+	text-align:left;
+	vertical-align: top;
+	padding: 0.5rem;
+}
+
+td {
+	max-width: 100px
+}
+
+summary {
+	list-style-type: disclosure-closed;
+	list-style-position: inside;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 0.5rem;
+}
+
+details[open] summary {
+	list-style-type: disclosure-open;
 }
