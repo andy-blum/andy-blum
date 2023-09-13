@@ -25,7 +25,7 @@ a, button {
 }
 
 :is(ol, ul):not(.plain) li {
-	list-style: initial;
+	list-style: none;
 	list-style-position: inside;
 }
 
