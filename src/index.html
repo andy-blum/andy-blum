@@ -11,6 +11,8 @@ title: "Hi, I'm Andy."
       {% set url %}
         {% if item.data.type == "media" %}
           {{ item.data.url }}
+        {% else if item.data.canonical %}
+          {{ item.data.canonical }}
         {% else %}
           {{ item.url }}
         {% endif %}
