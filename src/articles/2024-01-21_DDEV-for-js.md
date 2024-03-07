@@ -3,7 +3,7 @@ title: Node.js Development with DDEV
 created: 2024-01-21T00:00:00-05:00
 type: article
 permalink: "articles/ddev-for-js/"
-tags: [drupal]
+tags: [drupal,ddev,node.js]
 summary: ""
 ---
 
