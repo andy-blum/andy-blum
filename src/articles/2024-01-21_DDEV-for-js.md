@@ -7,7 +7,7 @@ tags: [drupal,ddev,node.js]
 summary: ""
 ---
 
-For much of the Drupal community, I imagine, [DDEV](https://ddev.com/) is a familiar tool for local development. It allows developers that want to work with their own sandboxed version of a website to spin up a set of containers that behave like a regular server-hosted copy of the site. The local version gets a nice URL, has its own database, and can run PHP all in the container - regardless of whether the host machine has that software installed. While DDEV is pretty ubiquitious in CMS communities like Drupal, WordPress, and Typo3, it's perhaps not as familiar to developers working in Node.js, Python, or other decoupled setups. This blog post is for _those_ developers.
+[DDEV](https://ddev.com/) is a familiar tool for local development in the Drupal community. It allows developers that want to work with their own sandboxed version of a website to spin up a set of containers that behave like a regular server-hosted copy of the site. The local version gets a nice URL, has its own database, and can run PHP all in the container - regardless of whether the host machine has that software installed. While DDEV is pretty ubiquitious in CMS communities like Drupal, WordPress, and Typo3, it's perhaps not as familiar to developers working in Node.js, Python, or other decoupled setups. This blog post is for _those_ developers.
 
 ## What is DDEV?
 
