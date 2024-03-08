@@ -307,7 +307,7 @@ pm2 "$@"
 
 ## One thing that still bugs me
 
-There's one part of this I still haven't quite figured out. Since I'm working on a mac with the new ARM architecture and the container is running linux, I have to run `npm install` in the container to get the right versions of some of the dependencies. If I install the requisite `node_module` on the host machine, the processes will error out if I try to run them inside the container. For right now the easiest way to handle this issue is to chain the install and start commands together in the PM2 config file:
+There's one part of this I still haven't quite figured out. Since I'm working on a mac with the new ARM architecture and the container is running linux, I have to run `npm install` in the container to get the right versions of some of the dependencies. If I install the requisite `node_modules` on the host machine, the processes will error out if I try to run them inside the container. For right now the easiest way to handle this issue is to chain the install and start commands together in the PM2 config file:
 
 ```js
 module.exports = {
