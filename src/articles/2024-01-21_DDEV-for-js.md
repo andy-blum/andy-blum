@@ -23,7 +23,7 @@ If you're successfully developing with some other solution running on a localhos
 
 2. If you need to switch between several projects using the same tech stack they might all be configured to run on the same port. Again, not an issue as many processes will detect the in-use port and suggest an alternative, but as you move to the browser, all your projects are running on very similar ports, and they might not be the same port every visit. With DDEV, each project gets a URL appended to your local DNS records which points to a router container. Your projects will _never_ conflict, and their URLs will _never_ change.
 
-3. Similar to #2, if you're working on a project with a decoupled front and back-end, your project probably has some CORS configuration setup. With DDEV, you can add the DDEV-generated URL to that CORS config and not have to worry about ports changing over time.
+3. Similar to #2, if you're working on a project with a decoupled front and back-end, your project probably has some CORS configuration setup. With DDEV, you can add the DDEV-generated URL to that CORS config and not have to worry about ports changing over time. DDEV also sets up HTTPS so all browser features work as they would in production.
 
 4. If you're collaborating with a team, their local setup may not be the same as yours, so you may have to help them all the time to get everything properly set up. 
 
