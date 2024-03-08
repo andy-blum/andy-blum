@@ -15,7 +15,7 @@ Straight from [the documentation](https://ddev.readthedocs.io/en/stable/), "DDEV
 
 As a front-end developer with no interest or experience in DevOps, the key feature for _why_ you should consider DDEV is standardized environments for every member of a team working on the same project.
 
-## Why would I do this instead of a Node/Python server?
+## Why would I use DDEV instead of a Node or Python server directly?
 
 If you're successfully developing with some other solution running on a localhost port, you might be fine sticking with that. In my experience, however, there are a couple of significant downsides and painpoints to working from a node process running in the terminal:
 
