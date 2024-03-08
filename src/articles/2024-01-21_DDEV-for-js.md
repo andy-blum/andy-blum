@@ -17,7 +17,7 @@ As a front-end developer with no interest or experience in DevOps, the key featu
 
 ## Why would I use DDEV instead of a Node or Python server directly?
 
-If you're successfully developing with some other solution running on a localhost port, you might be fine sticking with that. In my experience, however, there are a couple of significant downsides and painpoints to working from a node process running in the terminal:
+If you're successfully developing with some other solution running on a localhost port, you might be fine sticking with that. In my experience, there are a couple of significant downsides and pain-points to working from a node process running in the terminal:
 
 1. The process has to continue un-interrupted. If you're an obsessive tab-closer like me, you've probably accidentally quit a running process once or twice. It's not a huge problem to start the process back up, but if you're running the process inside a container you can't accidentally quit it.
 
