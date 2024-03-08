@@ -25,6 +25,8 @@ If you're successfully developing with some other solution running on a localhos
 
 3. Similar to #2, if you're working on a project with a decoupled front and back-end, your project probably has some CORS configuration setup. With DDEV, you can add the DDEV-generated URL to that CORS config and not have to worry about ports changing over time.
 
+4. If you're collaborating with a team, their local setup may not be the same as yours, so you may have to help them all the time to get everything properly set up. 
+
 ## How do I start?
 
 _Heads up from future me: I'm working on a ddev addon that will handle **a lot** of this work for you. It can be found [here](https://github.com/andy-blum/ddev-pm2)_
