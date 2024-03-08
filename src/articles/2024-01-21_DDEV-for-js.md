@@ -256,7 +256,7 @@ There are three main DX improvements we can make to make onboarding new develope
 
 [PM2](https://pm2.keymetrics.io/) is an "Advanced, production process manager for Node.JS". We can use this tool to start our app without clogging up an entire terminal pane and it will also allow us to monitor the process's logs, memory usage, and some other key stats. There are a ton of options available, but we'll just use a few basics.
 
-PM2's instructions tell us to install the tool globally, so we'll handle during DDEV's build process with a custom Dockerfile in `.ddev/web-build/Dockerfile`. For more info on how DDEV handles custom Dockerfiles, see [here](https://ddev.readthedocs.io/en/stable/users/extend/customizing-images/#adding-extra-dockerfiles-for-webimage-and-dbimage)
+PM2's instructions tell us to install the tool globally, so we'll handle during DDEV's build process with a custom Dockerfile in `.ddev/web-build/Dockerfile`. For more info on how DDEV handles custom Dockerfiles, see [Adding Extra Dockerfiles for webimage and dbimage](https://ddev.readthedocs.io/en/stable/users/extend/customizing-images/#adding-extra-dockerfiles-for-webimage-and-dbimage) in the DDEV documentation.
 
 ```Dockerfile
 RUN npm install -g pm2
