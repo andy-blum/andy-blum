@@ -31,6 +31,11 @@ a, button {
 
 ol:not(.plain) li {
 	list-style-type: numbers;
+	list-style-position: outside;
+}
+
+ol:not(.plain) li + li {
+	margin-top: 1rem;
 }
 
 /* Remove list styles (bullets/numbers) */

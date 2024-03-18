@@ -143,3 +143,11 @@ blockquote {
   font-variation-settings: 'wght' 200,'slnt' -15,'CRSV' 0;
   background-color: var(--light);
 }
+
+hr {
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  opacity: 0.33;
+}
