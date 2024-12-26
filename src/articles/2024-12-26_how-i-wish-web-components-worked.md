@@ -400,3 +400,5 @@ When using scope, the upper boundary (in this case our element) can be styled us
 ## Next Steps
 
 With this new setup, we can develop a component library that is built on platform-native features, compatible with external styles & scripts, and that eases adoption by reducing the API surface of the final component. To create the most accessible & performant components, we should design them for progressive enhancement. For a list of common UI components thoughtfully designed for PE, take a look at Heydon Pickering's [inclusive-components](https://inclusive-components.design/#components).
+
+Code in this post can be seen in [github](https://github.com/andy-blum/LightElement) or as a [demo](https://lightelement.netlify.app/)
