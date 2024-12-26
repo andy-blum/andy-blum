@@ -42,11 +42,11 @@ Even though they're a native feature in browsers, web components are still runni
 This all happens incredibly quickly, and for sites which require the browser to fetch uncached assets, can happen before CSS, JS, font, and image files are returned to the browser ([render blocking](https://developer.mozilla.org/en-US/docs/Glossary/Render_blocking)). For those sites, the next steps happen:
 
 7. Network requests for additional assets complete.
-8. Additional CSS recieved causessteps 3-6 to re-run. This may cause the layout to shift ([CLS](https://developer.mozilla.org/en-US/docs/Glossary/CLS))
-9. JavaScript recieved is parsed & executed - if the JS is large and unoptimized, this can block the main thread making your site non-interacitve to users ([TBT](https://web.dev/articles/tbt)). If the JS adds new elements to the DOM, Steps 2, and 4-6 re-run.
+8. Additional CSS recieved causes steps 3-6 to re-run. This may cause the layout to shift ([CLS](https://developer.mozilla.org/en-US/docs/Glossary/CLS))
+9. JavaScript recieved is parsed & executed - if the JS is large and unoptimized, this can block the main thread making your site non-interacitve to users ([TBT](https://web.dev/articles/tbt)). If the JS adds new elements to the DOM, steps 2, and 4-6 re-run.
 10. Images and fonts recieved are placed into the UI. The new font's glyphs cause all text nodes to recalculate layout. If `<img>` tags don't have `width` and `height` attributes, they also recalculate layout. In both cases, the new paint operation is likely the largest one encountered ([LCP](https://developer.mozilla.org/en-US/docs/Glossary/Largest_contentful_paint))
 
-The issue with relying on JavaScript for rendering (as _all_ client-side frameworks have to do), is that half the work the browser does to render the web page's UI is done before it even receives the instructions on how to _actually build the UI_. Web components are no different. Every component built by developers still has to send the JavaScript instructions to the browser for how that component behaves. They only "advantage" they have is the browser natively knows the component's lifecycle and the component extends baked-in classes. React, Vue, Angular, and every other flavor of client-side framework have to _also_ ship instructions on how _their_ components should render and update.
+The issue with relying on JavaScript for rendering (as _all_ client-side frameworks have to do), is that half the work the browser does to render the web page's UI is done before it even receives the instructions on how to _actually build the UI_. Web components are no different. Every component built by developers still has to send the JavaScript instructions to the browser for how that component behaves. They only "advantage" they have is the browser natively knows the component's lifecycle and the component extends baked-in classes. React, Vue, Angular, and every other flavor of client-side framework have to _also_ ship instructions on how _their_ components should render and update. The only real way to mitigate these negative effects is through [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) - a practice that "provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code." Ideally, the progressive enhancements can be planned in a way so as not to cause dramatic shifts to the layout or UI.
 
 ### The shadowDOM is riddled with painpoints
 
@@ -54,7 +54,7 @@ One of the biggest advantages of building a component library for a specific des
 
 Instead of sharing a set of designs and asking each team to build their own solutions, we can build a set of components that will cover a wide array of use cases and common interaction patterns. This then lets our separate teams just plop a new component in their application and reap the benefits of the styles, functionality and accessibility for free.
 
-Unfortunately, this brings along a number of negative side-effects in web components. To make a component that adopters can just drop on a page, authors will need to tuck away the styling and semantic structure of the component into the shadowDOM. In your browsers devtools that might look like this:
+Unfortunately, this brings along a number of negative side-effects in web components. To make a component that adopters can just drop on a page, authors will need to tuck away the styling and semantic structure of the component into the shadowDOM. In your browser's devtools that might look like this:
 
 ```HTML
 <my-product product-id="abc123">
