@@ -61,12 +61,15 @@ Unfortunately, this brings along a number of negative side-effects in web compon
 
     <!-- #shadowroot -->
     <div class="component-wrapper">
-      <h3>Product Title</h3>
+      <img src="img.jpg">
+      <h3>Product Title ($59)</h3>
       <div class="component-contents">
         <slot></slot>
       </div>
-      <a href="/link/to/product" class="button">Learn More</a>
-      <button data-chatteam>Get Support</button>
+      <div class="component-cta">
+        <a href="/link/to/product" class="button">Learn More</a>
+        <button data-chatteam>Get Support</button>
+      </div>
     </div>
     <!-- /#shadowroot -->
 
@@ -184,6 +187,8 @@ class LightElement extends LitElement {
     })
   }
 }
+
+export default LightElement;
 ```
 
 In this class, we're overriding the default behavior of `LitElement` which is to define the component's render root as a newly created shadowroot. Instead, we'll return a reference to this instance of our class, telling the component to render everything as the subtree of this component.
@@ -195,10 +200,13 @@ By _moving_ our authored subtrees like this, we're able to maintain any referenc
 To use this base class, we simply extend it like we would have normally used `LitElement`. The component defined below will replace the `<my-product>` example we saw above:
 
 ```js
+import LightElement from "../src/LightElement";
+import { css, html } from "lit";
 import { property, state } from 'lit/decorators.js';
+import { customElement } from "../src/custom-element";
 
-class MyProduct extends LightElement {
-
+@customElement('my-product')
+export default class MyProduct extends LightElement {
 
   @property({ attribute: 'product-id' })
   productId;
@@ -206,79 +214,76 @@ class MyProduct extends LightElement {
   @state()
   productDetails;
 
-  connectedCallback() {
+  async connectedCallback() {
+    super.connectedCallback();
     const { productId } = this;
 
-    const response = await
+    const response = await fetch(`https://example.com/api/${productId}`)
 
-    fetch(`https://example.com/api/${productId}`)
-    .then(response => {
-      if (response.ok) {
-        response.json()
-        .then(data => {
-          this.productDetails = data;
-        });
-      }
-    });
+    if (response.ok) {
+      this.productDetails = await response.json();
+    }
   }
 
   render() {
-    const {
-      productDetails: {
-        title,
-        url,
-      }
-    } = this
+    const { productDetails } = this;
+    const { title, price, image, description } = productDetails || {};
 
     return html`
       <div class="component-wrapper">
-        <h3>${title}</h3>
+        <img src="${image}" alt="${description}" width="75" height="75">
+        <h3>${title || '...'} ($${price || "??"})</h3>
         <div class="component-contents">
           <slot></slot>
         </div>
-        <a href="${url}" class="button">Learn More</a>
-        <button data-chatteam>Get Support</button>
+        <div class="component-cta">
+          <a href="#!" class="button">Learn More</a>
+          <button data-chatteam>Get Support</button>
+        </div>
       </div>
     `
   }
 }
+
 ```
 
-In this component, `productId` is a [reactive property](https://lit.dev/docs/components/properties/) which gets its value from the `product-id` attribute authored by the adopter. When the component connects, it fetches data from an API and stores that information in the [state](https://lit.dev/docs/api/decorators/#state) property `productDetails`. The render method will create the markup seen there, interpolating our `title` and `url` values into that markup where needed.
+In this component, `productId` is a [reactive property](https://lit.dev/docs/components/properties/) which gets its value from the `product-id` attribute authored by the adopter. When the component connects, it fetches data from an API and stores that information in the [state](https://lit.dev/docs/api/decorators/#state) property `productDetails`. The render method will create the markup seen there, interpolating our `title`, `price`, `image`, and `description` values into that markup where needed.
 
 ### Using the new component
 
 When an adopter wants to use this component, they'll need to author:
 
 ```html
-<my-component product-id="abc123">
+<my-product product-id="abc123">
   <p>Product description lorem ipsum</p>
-</my-component>
+</my-product>
 ```
 
 When the component definition runs, the following happens:
 
 1. `connectedCallback` runs, starting the fetch from our product API
 2. `update` runs for the first time, storing a reference to the components existing subtree
-3. `render` runs, appending the returned markup to the renderRoot, which is `this` (`<my-component>`).
+3. `render` runs, appending the returned markup to the renderRoot, which is `this` (`<my-product>`).
 4. `firstUpdated` runs, iterating over our stored subtree items and placing them in the appropriate slot, if it exists.
 
 After our complete lifecycle, our element looks like this:
 
 ```html
-<my-component product-id="abc123">
+<my-product product-id="abc123"><!---->
   <div class="component-wrapper">
-  <h3><!--?lit$3719502562$--></h3>
-  <div class="component-contents">
-    <slot>
-      <p>Product description lorem ipsum</p>
+    <img width="75" height="75" src="" alt="">
+    <h3><!--?lit$045232167$-->... ($<!--?lit$045232167$-->??)</h3>
+    <div class="component-contents">
+      <slot>
+      <p>Est in do commodo duis elit esse sunt.</p>
     </slot>
+    </div>
+    <div class="component-cta">
+      <a href="#!" class="button">Learn More</a>
+      <button data-chatteam="">Get Support</button>
+    </div>
   </div>
-  <!--?lit$3719502562$-->
-  <a href="" class="button">Learn More</a>
-  <button data-chatteam>Get Support</button>
-</div>
-</my-component>
+</my-product>
 ```
 
 A close inspection will reveal that we don't have our product title or URL yet, and we have some strange HTML comments present. These comments are a critical part of how LitElement handles component reactivity and updates. When our API call we started completes the following happens:
@@ -298,7 +303,6 @@ Since our stylesheets are identical across all instances of the component, we on
 ```js
 class MyProduct extends LightElement {
 
-
   @property({ attribute: 'product-id' })
   productId;
 
@@ -310,11 +314,38 @@ class MyProduct extends LightElement {
   render() {...}
 
   static styles = css`
-    h3 { .. }
+    .component-wrapper {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 75px 400px;
+      grid-template-rows: auto auto auto;
+    }
 
-    .component-wrapper { ... }
+    * {
+      grid-column: 2;
+    }
 
-    .component-contents { ... }
+    img {
+      grid-column: 1;
+      grid-row: 1 / -1;
+      background: #eee;
+    }
+
+    h3 {
+      color: rebeccapurple;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .component-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
   `
 }
 ```
@@ -347,17 +378,17 @@ Now that our component renders everything in the main document & can be styled, 
 As of the time of writting, `@scope` is available in Chrome and Safari, and is behind a feature flag in Firefox. Progress on Firefox's implemention can be tracked [here](https://bugzilla.mozilla.org/show_bug.cgi?id=1830512). This at-rule allows us to limit styles to _only_ apply to specific chunks of the DOM by defining and upper and lower boundary. For our component, that could look like this:
 
 ```css
-@scope (my-component) to (slot) {
+@scope (my-product) to (slot) {
   ...
 }
 ```
 
-This creates a "donut scope" where elements that match `my-component *` but _not_ `my-component slot *` are styled with the contained rulesets. Shadowroot encapsulation allows us to style the containing element using [`:host`](https://developer.mozilla.org/en-US/docs/Web/CSS/:host) as well as direct children of the containing element with [`::slotted`] (https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted).
+This creates a "donut scope" where elements that match `my-product *` but _not_ `my-product slot *` are styled with the contained rulesets. Shadowroot encapsulation allows us to style the containing element using [`:host`](https://developer.mozilla.org/en-US/docs/Web/CSS/:host) as well as direct children of the containing element with [`::slotted`] (https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted).
 
 When using scope, the upper boundary (in this case our element) can be styled using the [`:scope`](https://developer.mozilla.org/en-US/docs/Web/CSS/:scope), but the lower boundary is _exclusive_. To be able to style "slotted" elements in our new setup, we'll need to modify our lower boundary:
 
 ```css
-@scope (my-component) to (slot > * > *) {
+@scope (my-product) to (slot > * > *) {
   /* mimics :host */
   :scope {...}
 
