@@ -3,7 +3,6 @@ title: How I Wish Web Components Worked
 created: 2024-12-26T00:00:00-05:00
 type: article
 permalink: "articles/how-i-wish-web-components-worked/"
-# canonical: https://www.lullabot.com/articles/nodejs-development-ddev
 summary: ""
 ---
 
