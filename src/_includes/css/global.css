@@ -1,3 +1,52 @@
+/* Create a custom animation */
+main {
+  view-transition-name: main;
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+::view-transition-old(main),
+::view-transition-new(main) {
+  height: auto;
+  right: 0;
+  left: auto;
+  transform-origin: right center;
+}
+
+::view-transition-old(main) {
+  animation: 0.25s 0.25s linear both slide-out;
+}
+
+::view-transition-new(main) {
+  animation: 0.25s 0.25s linear both slide-in;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+
+
 :root {
   --dark: #2a2a2a;
   --light: #eee;
